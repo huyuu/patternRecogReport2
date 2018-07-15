@@ -1,0 +1,53 @@
+\documentclass[twocolumn, 10.5pt]{jsarticle}
+\usepackage[hiresbb]{graphicx}
+\usepackage{color}
+\usepackage{amsmath,amssymb}
+\usepackage{here}
+
+\title{パターン認識論レポート2}
+\date{Jul/15/2018}
+\author{b5tb2080 江 宇揚(Jiang Yuyang)}
+
+\begin{document}
+\maketitle
+\twocolumn[
+  本レポートのプログラムと結果を全てgithubにアップロードしており, 必要であればご確認ください。url:
+
+]
+
+\section{判別評価基準(ユークリッド・類似度・重み付きユークリッド)}
+\subsection{(a) ユークリッド距離法と類似度を用いた結果}
+ユークリッド距離法と類似度を用いて文字画像認識プログラムを作成し, 実行した結果, 認識正誤表および認識率を合わせて表1に示した。
+(結果数膨大のため一部のみを載せており, 詳細は)
+\begin{table}[htbp]
+  \caption{}
+  \centering
+  \begin{tabular}{|c||c|c|}\hline
+  データ番号 & ユークリッド & 類似度 \\\hline\hline
+    0 & True & True \\\hline
+    1 & True & True \\\hline
+    2 & True & True \\\hline
+    3 & True & True \\\hline
+    4 & True & True \\\hline
+    5 & True & True \\\hline
+    6 & True & True \\\hline
+    7 & True & True \\\hline
+    8 & True & True \\\hline
+    9 & True & True \\\hline
+    10 & True & True \\\hline
+    .. & ... & ... \\\hline
+    72 & True & True \\\hline
+    73 & True & True \\\hline
+    74 & True & True \\\hline
+    75 & True & True \\\hline
+    76 & False & False \\\hline
+    77 & True & True \\\hline
+    78 & True & True \\\hline
+    79 & True & True \\\hline\hline
+    認識率\% & 88.75 & 88.75 \\\hline
+  \end{tabular}
+
+\end{table}
+
+
+\end{document}
