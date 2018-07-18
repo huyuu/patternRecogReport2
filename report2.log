@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2016.10.20)  15 JUL 2018 15:11
+This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2016.10.20)  18 JUL 2018 15:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -178,41 +178,40 @@ LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 16.60605pt on input line 12.
+(Font)              scaled to size 16.60605pt on input line 16.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 16.60605pt on input line 12.
+(Font)              scaled to size 16.60605pt on input line 16.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 12.
+(Font)              scaled to size 11.53198pt on input line 16.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 12.
+(Font)              scaled to size 11.53198pt on input line 16.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 12.
-LaTeX Font Info:    Try loading font information for U+msa on input line 12.
+(Font)              scaled to size 5.76599pt on input line 16.
+LaTeX Font Info:    Try loading font information for U+msa on input line 16.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 12.
+LaTeX Font Info:    Try loading font information for U+msb on input line 16.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 13.
+(Font)              scaled to size 11.53198pt on input line 18.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 13.
+(Font)              scaled to size 11.53198pt on input line 18.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 14.
+(Font)              scaled to size 9.60999pt on input line 19.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 14.
+(Font)              scaled to size 9.60999pt on input line 19.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 17.
+(Font)              scaled to size 8.64899pt on input line 22.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 17.
+(Font)              scaled to size 8.64899pt on input line 22.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 19.
+(Font)              scaled to size 6.72699pt on input line 24.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 19.
+(Font)              scaled to size 4.805pt on input line 24.
  [1
-
 
 
 ]
@@ -220,10 +219,10 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 Here is how much of TeX's memory you used:
  1885 strings out of 493693
  22577 string characters out of 6149786
- 90161 words of memory out of 5000000
+ 89161 words of memory out of 5000000
  5441 multiletter control sequences out of 15000+600000
  17308 words of font info for 78 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 27i,9n,26p,220b,296s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,9n,26p,220b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report2.dvi (1 page, 4460 bytes).
+Output written on report2.dvi (1 page, 4568 bytes).

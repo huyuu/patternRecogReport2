@@ -9,17 +9,16 @@
 \author{b5tb2080 江 宇揚(Jiang Yuyang)}
 
 \begin{document}
-\maketitle
 \twocolumn[
+\maketitle
   本レポートのプログラムと結果を全てgithubにアップロードしており, 必要であればご確認ください。url:
-
+  https://github.com/huyuu/patternRecogReport2
 ]
 
-\section{判別評価基準(ユークリッド・類似度・重み付きユークリッド)}
+\section{判別評価基準(ユークリッド・類似度・重み付きユークリッド)：}
 \subsection{(a) ユークリッド距離法と類似度を用いた結果}
-ユークリッド距離法と類似度を用いて文字画像認識プログラムを作成し, 実行した結果, 認識正誤表および認識率を合わせて表1に示した。
-(結果数膨大のため一部のみを載せており, 詳細は)
-\begin{table}[htbp]
+ユークリッド距離法と類似度を用いて文字画像認識プログラムを作成し, 実行した結果, 認識正誤表の一部および認識率を合わせて表1に示した。
+\begin{table}[hbtp]
   \caption{}
   \centering
   \begin{tabular}{|c||c|c|}\hline
@@ -33,8 +32,6 @@
     6 & True & True \\\hline
     7 & True & True \\\hline
     8 & True & True \\\hline
-    9 & True & True \\\hline
-    10 & True & True \\\hline
     .. & ... & ... \\\hline
     72 & True & True \\\hline
     73 & True & True \\\hline
@@ -46,8 +43,54 @@
     79 & True & True \\\hline\hline
     認識率\% & 88.75 & 88.75 \\\hline
   \end{tabular}
-
 \end{table}
+
+\subsection{結果(a)の考察：}
+結果の表1から, ユークリッド距離と類似度は同じ認識率を示した。レポード1からわかったように,
+二次元データにおいて各方法には優劣は見られたもののその差は微小なものだった。
+これらの方法を256次元に拡張したら, 各次元にそれぞれの方法の差が平均化され, どんな方法であっても一定の認識率を予想できる。
+基本的な方法であるユークリッド距離と類似度はこうした高次元のデータ判別においても安定した認識率を果しており, 識別問題において
+有用であることがわかった。
+
+\subsection{重み付きユークリッド距離法による認識結果：}
+重みをコード作成便利のため, $1, 2, ..., 256$と各次元にかかる重みが線形的に増加するものとし, 重み付きユークリッド距離方法を
+用いて文字画像認識した結果を下表2に示した。
+
+\begin{table}[htbp]
+  \caption{}
+  \centering
+  \begin{tabular}{|c||c|}\hline
+    データ番号 & 重み付きユークリッド \\\hline\hline
+    0 & True \\\hline
+    1 & True \\\hline
+    2 & True \\\hline
+    3 & True \\\hline
+    4 & True \\\hline
+    5 & True \\\hline
+    6 & True \\\hline
+    7 & True \\\hline
+    8 & True \\\hline
+    9 & True \\\hline
+    ... & ... \\\hline
+    52 & True \\\hline
+    53 & True \\\hline
+    54 & True \\\hline
+    55 & True \\\hline
+    56 & True \\\hline
+    57 & True \\\hline
+    58 & True \\\hline
+    59 & True \\\hline
+    60 & False \\\hline
+    61 & True \\\hline
+    62 & False \\\hline
+    認識率\% & 81.25 \\\hline
+  \end{tabular}
+\end{table}
+
+表2から
+
+
+\section{判別分析・主成分分析}
 
 
 \end{document}
