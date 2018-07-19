@@ -19,7 +19,7 @@
 \subsection{(a) ユークリッド距離法と類似度を用いた結果}
 ユークリッド距離法と類似度を用いて文字画像認識プログラムを作成し, 実行した結果, 認識正誤表の一部および認識率を合わせて表1に示した。
 \begin{table}[hbtp]
-  \caption{}
+  \caption{ユークリッド距離法と類似度による正誤表及び認識率}
   \centering
   \begin{tabular}{|c||c|c|}\hline
   データ番号 & ユークリッド & 類似度 \\\hline\hline
@@ -33,7 +33,6 @@
     7 & True & True \\\hline
     8 & True & True \\\hline
     .. & ... & ... \\\hline
-    72 & True & True \\\hline
     73 & True & True \\\hline
     74 & True & True \\\hline
     75 & True & True \\\hline
@@ -56,8 +55,31 @@
 重みをコード作成便利のため, $1, 2, ..., 256$と各次元にかかる重みが線形的に増加するものとし, 重み付きユークリッド距離方法を
 用いて文字画像認識した結果を下表2に示した。
 
+\begin{table}[H]
+  \caption{重み付きユークリッド距離法による正誤表及び認識率}
+  \centering
+  \begin{tabular}{|c||c|}\hline
+    データ番号 & 重み付きユークリッド \\\hline\hline
+    0 & True \\\hline
+    1 & True \\\hline
+    2 & True \\\hline
+    3 & True \\\hline
+    ... & ... \\\hline
+    77 & False \\\hline
+    78 & True \\\hline
+    79 & False \\\hline\hline
+    認識率\% & 81.25 \\\hline
+  \end{tabular}
+\end{table}
+
+表2から後方にあるバイトが重くカウントされる重みの配分で認識させると認識率が下がった。
+
+
+\section{判別分析・主成分分析}
+主成分分析法で判別評価基準にユークリッド距離法を用いて判別を行った結果一部を表3に示す。
+
 \begin{table}[htbp]
-  \caption{}
+  \caption{主成分分析による正誤表及び認識率}
   \centering
   \begin{tabular}{|c||c|}\hline
     データ番号 & 重み付きユークリッド \\\hline\hline
@@ -71,26 +93,33 @@
     7 & True \\\hline
     8 & True \\\hline
     9 & True \\\hline
-    ... & ... \\\hline
-    52 & True \\\hline
-    53 & True \\\hline
-    54 & True \\\hline
-    55 & True \\\hline
-    56 & True \\\hline
-    57 & True \\\hline
-    58 & True \\\hline
-    59 & True \\\hline
-    60 & False \\\hline
-    61 & True \\\hline
-    62 & False \\\hline
-    認識率\% & 81.25 \\\hline
+    .. & ... \\\hline
+    70 & False \\\hline
+    71 & True \\\hline
+    72 & False \\\hline
+    73 & True \\\hline
+    74 & True \\\hline
+    75 & True \\\hline
+    76 & True \\\hline
+    77 & True \\\hline
+    78 & True \\\hline
+    79 & False \\\hline\hline
+    認識率\% & 85.00 \\\hline
   \end{tabular}
 \end{table}
 
-表2から
 
+\section{パターン認識論について：}
+\subsection{(a)今までの判別方法の特徴}
+ユークリッド距離法と類似度は一貫して安定な認識率を示しており, 判別方法としては汎用性のあるものであると考えられる。
+Nearest neighbor法はデータに明確な境界線が存在していればもっとも高い認識率が見られたものの, ノイズに弱い欠点がある。
+主成分分析は多次元のデータから分析すべく主成分軸を探り出し, 認識率を高める方法であり, 特に画像のような圧縮性を持つ多次元データに対して
+優れているアプローチ方法である。
 
-\section{判別分析・主成分分析}
+\subsection{(b)本講義について}
+本講義では内容の難易度はもともと高めである上, 教員による解説時間が短いため習得するに当たって大量の時間を費やさなければならず, 高い壁を感じた。
+ただし, パターン認識は人工知能がの発展に伴い, 今後ますます多用されていくと考えられ習得するのに値する価値はあると思う。
+
 
 
 \end{document}
